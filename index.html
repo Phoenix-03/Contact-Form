@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="formcarry-form.css" />
+  </head>
+  <body>
+    <div class="formcarry-container">
+      <form action="https://formsubmit.co/dcgargiangne@gmail.com" method="POST" class="formcarry-form">
+         <h1 align="center">Contact Us</h1>
+        <label for="name">Name
+        <text style="color: red">* </text>
+        </label> 
+        <input type="text" id="name" name="name" placeholder="Full Name" required />
+
+        <label for="email">Email Address
+        <text style="color: red">* </text>
+        </label>
+        <input type="email" id="email" name="email" placeholder="Email" required />
+        <input type="hidden" name="_autoresponse" value="Your message">
+
+        <label for="contact">Phone number</label>
+        <input type="contact" id="contact" name="contact" placeholder="Contact" />
+        
+         <label for="acontact">Alternate phone number</label>
+        <input type="acontact" id="acontact" name="alternate contact" placeholder="Alternate Contact" />
+        
+        <label for="message">Purpose of contact
+                <text style="color: red">* </text></label>
+        <textarea name="message" required id="Message" placeholder="Purpose" cols="30" rows="10"></textarea>
+        <label style="color: red">* Compulsary fields </label>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </body>
+</html>
